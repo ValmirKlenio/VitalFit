@@ -231,7 +231,7 @@ def gestao_estoque():
   if opc_estoque == 1:
     produto = input('Produto: ')
     quantidade = int(input('Quantidade: '))
-    estoque.append({'Produto': produto, 'ID': id_produto, 'Quantidade': quantidade})
+    estoque.append({'Produto': produto, 'Quantidade': quantidade})
     if produto not in estoque:
       estoque[produto] = quantidade_inicial
       print(f'Produto {produto} adicionado ao estoque com quantidade inicial de {quantidade_inicial}.')
