@@ -750,7 +750,27 @@ while True:
     else:
       print('Opção Inválida! Tente novamente mais tarde.')
   elif opcao == 3:
-    print()
+    menu_mod3()
+    opc_mod3 = int(input('Opção: '))
+    if opc_mod3 == 1:
+      treino()
+    elif opc_mod3 == 2:
+      multimidia_treino()
+    elif opc_mod3 == 3:
+      rotina_treino()
+    elif opc_mod3 == 4:
+      desempenho()
+    elif opc_mod3 == 5:
+      lembrete_treino()
+    elif opc_mod3 == 6:
+      canal_comunicacao()
+    elif opc_mod3 == 7:
+      reconhecimento()
+    elif opc_mod3 == 8:
+      print('ENCERRANDO...')
+      break
+    else:
+      print('Opção Inválida! Tente novamente mais tarde.')
   elif opcao == 4:
     aluno1 = Aluno("João")
     aluno1.preencher_questionario()
