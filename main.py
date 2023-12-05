@@ -475,6 +475,27 @@ def menu_mod3():
   7 - Premiassões e Reconhecimentos
   8 - SAIR/VOLTAR''')
 
+def treino():
+  print()
+
+def multimidia_treino():
+  print()
+
+def rotina_treino():
+  print()
+
+def desempenho():
+  print()
+
+def lembrete_treino():
+  print()
+
+def canal_comunicacao():
+  print()
+
+def reconhecimento():
+  print()
+
 
 # MÓDULO 4 - VITÓRIA
 class Aluno:
