@@ -463,7 +463,7 @@ def gestao_estoque():
     print('OPÇÃO INVÁLIDA! Tente novamente mais tarde.')
 
 
-# MÓDULO 3
+# MÓDULO 3 - PEDRO
 def menu_mod3():
   print('''Escolha uma opção:
   1 - Montar Treino Personalizado
