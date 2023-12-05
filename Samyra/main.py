@@ -264,3 +264,33 @@ def gestao_estoque():
       print(e)
   else:
     print('OPÇÃO INVÁLIDA! Tente novamente mais tarde.')
+
+# CHAMADA DAS FUNÇÕES
+while True:
+  menu_mod2()
+  opc_mod2 = int(input('Opção: '))
+  if opc_mod2 == 1:
+    cadastro_produto()
+  elif opc_mod2 == 2:
+    perfil_compra()
+  elif opc_mod2 == 3:
+    promocoes()
+  elif opc_mod2 == 4:
+    lista_desejo()
+  elif opc_mod2 == 5:
+    novos_produtos()
+  elif opc_mod2 == 6:
+    sistema_pagamento()
+  elif opc_mod2 == 7:
+    acompanhamento_entregas()
+  elif opc_mod2 == 8:
+    programa_fidelidade()
+  elif opc_mod2 == 9:
+    avalia_produto()
+  elif opc_mod2 == 10:
+    gestao_estoque()
+  elif opc_mod2 == 11:
+    print('ENCERRANDO...')
+    break
+  else:
+    print('Opção Inválida! Tente novamente mais tarde.')
